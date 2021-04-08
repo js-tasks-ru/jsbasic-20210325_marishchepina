@@ -1,12 +1,11 @@
 function getMinMax(str) {
   let result = { min: undefined, max: undefined };
-  let arr = str
+  str = str
     .split(" ")
     .join()
     .split(",")
     .filter((el) => Number(el) && el);
-  console.log(arr);
-  result.min = Math.min(...arr);
-  result.max = Math.max(...arr);
+  result.min = Math.min(...str);
+  result.max = Math.max(...str);
   return result;
 }
