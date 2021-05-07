@@ -20,6 +20,9 @@ describe('5-module-3-task', () => {
           </div>
 
           <div class="carousel__inner">
+              <div class="carousel__slide" data-id="penang-shrimp">
+                  <img src="/assets/images/carousel/penang_shrimp.png" class="carousel__img" alt="slide">
+                  <div class="carousel__caption">
                       <span class="carousel__price">€16.00</span>
                       <div class="carousel__title">Penang shrimp</div>
                       <button type="button" class="carousel__button">
